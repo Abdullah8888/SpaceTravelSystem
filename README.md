@@ -1,7 +1,7 @@
 # SpaceTravelSystem
 Space Travel System
 <h1> Setup </h1>
-<p> Unzip the project then open the src folder from any IDE (e.g eclipse ) click <a href="https://www.eclipse.org/downloads/">here</a></p>
+<p> Unzip the project then open the src folder from any IDE (e.g eclipse ) click <a href="https://www.eclipse.org/downloads/">here</a> to download eclipse </p>
 
 <h3> How to run the project </h3>
 <p> Click on the green button at the top of the IDE or right click on the java file (i.e SpaceTravelSystem.java)) then select on Run as java application </p>
