@@ -10,18 +10,18 @@ public class SpaceTravelSystem {
 								String stationTo) {
 		Double userWallet = 0.0;
 		Double tripFare = 0.0;
-		String orbitStationFrom = spsData.orbit.get(stationFrom);
-		String orbitStationTo = spsData.orbit.get(stationTo);
+		String orbitForStationFrom = spsData.orbit.get(stationFrom);
+		String orbitForStationTo = spsData.orbit.get(stationTo);
 		String landingType = spsData.type.get(stationTo);
 		
 		//trip cases
-		if(orbitStationFrom.equalsIgnoreCase(orbitStationTo)){
+		if(orbitForStationFrom.equalsIgnoreCase(orbitForStationTo)){
 			userWallet = spsData.userWallet;
 			tripFare = getFareForTrip(rocketType, true);
 			userWallet = userWallet - tripFare;
 			
 		}
-		else if(!orbitStationFrom.equalsIgnoreCase(orbitStationTo)){
+		else if(!orbitForStationFrom.equalsIgnoreCase(orbitForStationTo)){
 			userWallet = spsData.userWallet;
 			tripFare = getFareForTrip(rocketType, false);
 			userWallet = userWallet - tripFare;	
