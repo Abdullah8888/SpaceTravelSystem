@@ -7,15 +7,14 @@ Space Travel System
 
 <ol>
   <li> Open Eclipse IDE </li>
-  <li> Ensure you have a workspace, check below steps to create a new workspace. </li>
+  <li> Ensure you have a workspace, though this will be required on first launch of the IDE, To change a workspace check <b>How to switch workspace</b> below. </li>
   <li> Click on File then select <b>import</b>. </li>
   <li> Click on the drop down arrow beside <b>General</b> then select  <b>Existing project into workspace</b> and click on <b>Next</b>. </li>
   <li> Select SpaceTravelSystem-main folder as the root directory by clicking on browse then navigate to its location. </li>
   <li> Click on <b>Finish</b> to end the import wizard. </li>
  </ol>
 
-<h3> How to creata a workspace  </h3>
-<p> Note: For first time user on eclipse, This will required on first launch of the IDE </p>
+<h3> How to switch workspace  </h3>
 <ol>
   <li> Click on file then select <b>switch workspace</b>. </li>
   <li> Enter a directory for your workspace then select on <b>launch</b>. </li>
